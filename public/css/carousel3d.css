@@ -1,0 +1,97 @@
+/* line 43, ../scss/carousel3d.scss */
+.carousel3d-ancestor {
+  height: 100%;
+  position: relative;
+}
+/* line 47, ../scss/carousel3d.scss */
+.carousel3d-ancestor .carousel3d-indicator {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+/* line 58, ../scss/carousel3d.scss */
+.carousel3d-ancestor .carousel3d-indicator li {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  width: 8px;
+  height: 8px;
+  margin: 0 10px;
+  background-color: #888888;
+  border-radius: 50%;
+}
+/* line 67, ../scss/carousel3d.scss */
+.carousel3d-ancestor .carousel3d-indicator li.active {
+  background-color: #ffffff;
+}
+/* line 73, ../scss/carousel3d.scss */
+.carousel3d-ancestor .js-carousel3d-prev {
+  position: absolute;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  cursor: pointer;
+  left: 0;
+}
+/* line 79, ../scss/carousel3d.scss */
+.carousel3d-ancestor .js-carousel3d-next {
+  position: absolute;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  cursor: pointer;
+  right: 0;
+}
+
+/* line 86, ../scss/carousel3d.scss */
+.carousel3d-parent {
+  height: 100%;
+  -webkit-perspective: 400px;
+  -moz-perspective: 400px;
+  -o-perspective: 400px;
+  -ms-perspective: 400px;
+  perspective: 400px;
+}
+/* line 90, ../scss/carousel3d.scss */
+.carousel3d-parent .carousel3d-wrapper {
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+/* line 94, ../scss/carousel3d.scss */
+.carousel3d-parent .carousel3d-wrapper .carousel3d {
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  -o-transform: rotateY(0);
+  transform: rotateY(0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+  position: relative;
+}
+/* line 101, ../scss/carousel3d.scss */
+.carousel3d-parent .carousel3d-wrapper .carousel3d .carousel3d-list {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: absolute;
+}

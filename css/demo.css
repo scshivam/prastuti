@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* line 5, ../../../.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../scss/demo.scss */
+html {
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN';
+}
+
+/* line 8, ../scss/demo.scss */
+#layout {
+  padding-left: 150px;
+}
+
+/* line 12, ../scss/demo.scss */
+#menu {
+  position: fixed;
+  top: 0;
+  left: 150px;
+  bottom: 0;
+  width: 150px;
+  margin-left: -150px;
+  overflow-y: auto;
+  z-index: 1000;
+  background: #191818;
+}
+/* line 23, ../scss/demo.scss */
+#menu a {
+  padding: 0.6em 0 0.6em 0.6em;
+  color: #999999;
+  border: none;
+}
+/* line 29, ../scss/demo.scss */
+#menu .pure-menu-heading {
+  color: #ffffff;
+  font-size: 16px;
+}
+/* line 35, ../scss/demo.scss */
+#menu .pure-menu ul {
+  border-top: 1px solid #333333;
+}
+/* line 39, ../scss/demo.scss */
+#menu .pure-menu li {
+  font-size: 14px;
+}
+/* line 42, ../scss/demo.scss */
+#menu .pure-menu li.menu-item-selected {
+  background: #1f8dd6;
+}
+/* line 45, ../scss/demo.scss */
+#menu .pure-menu li.menu-item-selected a {
+  color: #ffffff;
+}
+/* line 48, ../scss/demo.scss */
+#menu .pure-menu li.menu-item-selected a:hover {
+  background: none;
+}
+/* line 54, ../scss/demo.scss */
+#menu .pure-menu li a:hover {
+  background: #333333;
+}
+/* line 59, ../scss/demo.scss */
+#menu .pure-menu .menu-item-devided {
+  border-top: 1px solid #333;
+}
+/* line 64, ../scss/demo.scss */
+#menu .pure-menu-open {
+  background: transparent;
+  border: none;
+}
+
+/* line 70, ../scss/demo.scss */
+#main {
+  width: 100%;
+}
+/* line 73, ../scss/demo.scss */
+#main h1 {
+  color: #4b4b4b;
+  text-align: center;
+  font-weight: 300;
+  font-size: 50px;
+}
+/* line 80, ../scss/demo.scss */
+#main > .content {
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 50px;
+  display: none;
+}
+/* line 86, ../scss/demo.scss */
+#main > .content.content-item-selected {
+  display: block;
+}
+/* line 91, ../scss/demo.scss */
+#main pre {
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  color: #333333;
+  background: #fafafa;
+  word-wrap: break-word;
+  border: 1px solid #eeeeee;
+}
+/* line 98, ../scss/demo.scss */
+#main pre.snippet {
+  padding: 1.3em;
+}
+/* line 103, ../scss/demo.scss */
+#main .demo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 108, ../scss/demo.scss */
+#main .smooth-scroll {
+  color: #333333;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* line 115, ../scss/demo.scss */
+.mt-20 {
+  margin-top: 20px;
+}
